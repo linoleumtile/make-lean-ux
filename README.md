@@ -8,7 +8,7 @@ This talk is about harnessing the "Maker" spirit to enable Lean UX, specifically
 ABOUT THE CODE
 --------------
 
-This presentation is build using impress.js, which you can find [here](http://github.com/bartaz/impress.js).
+This presentation is built using impress.js, which you can find [here](http://github.com/bartaz/impress.js).
 
 
 LICENSE
