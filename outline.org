@@ -1,0 +1,179 @@
+
+Make Lean UX
+MinneBar April 6, 2013
+by Erik Mitchell
+
+* Introduction
+
+** Hello
+- Should we get started?
+- OK, my name is Erik Mitchell, I want to thank you for coming...
+- I am humbled and terrified by this turnout!
+- This talk is called Make Lean UX
+- If you want to tweet about it, use the hash tag #makeleanux
+- I'll follow up later today
+- Source for these slides are available on my github
+- Creative Commons Share-Alike
+
+
+** Hook
+- Enterprise software sucks.
+
+
+*** I want to tell you how we did expense reports at my old job
+- Had to log into this crappy webapp that only worked in Internet Explorer
+- Had to find the right spending account in a bunch of dropdowns
+- Finally got it submitted. Whew.
+- It's in the system. I'm going to get reimbursed for my Amazon Web Services bill.
+- But no, then you had to print out a paper copy.
+- And walk over to the fax machine, and fax it to the Finance department.
+- I won't say where that was (point around), but honestly, it could have been any big company
+- Because enterprise software sucks.
+
+
+*** But I guarantee you one thing
+- It wasn't designed that way.
+
+*** Too many companies have great designers, but fail miserably at making the vision a reality
+
+*** This is a huge opportunity to unlock value
+
+** Bring it back
+
+*** Lean UX. Make Lean UX.
+- I picked out three words that are extremely buzzword compliant.
+
+
+* What is Lean UX?
+- What are people talking about when they say "Lean" UX?
+
+
+** UX
+- UX is a fairly new term. It's the practice of making software/website/products easier to use for people
+- It's design.
+- Design isn't about making things pretty, it's about making things work (for the people who are going to use those things)
+- Or maybe it's less about making things work, it's more about discovering what works
+
+
+
+** Lean
+- Considers expenditure of resources for any goal other than the creation of value for the end customer to be wasteful, and thus a target for elimination. 
+- Working from the perspective of the customer who consumes a product or service, "value" is defined as any action or process that a customer would be willing to pay for.
+- Lean is centered on preserving value with less work
+
+
+
+** Foundations of Lean UX
+- Design Thinking
+- Agile Software Development
+- Lean Startup Method
+
+
+
+** Lean UX Principles
+*** Lots of great stuff, like
+- Cross Functional Teams
+- Small, dedicated teams
+- Problem focused teams
+- Removing Waste
+- Continuous Delivery
+- Learning over Growth
+- Permission to Fail
+
+
+*** And then a few things that I think are especially important/interesting
+- Progress = Outcomes, not Output
+- Small Batch Size
+- GOOB (Gettng out of the Building)
+- Shared Understanding
+- Anti-pattern: Rockstars, Gurus, Ninjas
+- Externalizing your work
+- Making over Analysis
+
+
+*** And one that I think strikes a chord with a lot of people
+- Getting out of the Deliverables Business
+
+
+
+* How did I come to be talking about Lean UX
+
+** Worked for four years at a product development firm
+- Based on cross functional teams
+- Hired by big companies to create new products
+- Zoom SDK & Card Engine
+
+
+
+** Went to work for an E-commerce firm
+- Beginning of credit crunch
+- Company had no debt, growth through cash flow
+- Used Open Source software like Magento
+- Focused on KPIs and Voice of the Customer
+- Grew 500+% in 3 years, placed in Inc 5000
+
+
+
+** Best Buy
+- Started November 29, 2010
+- Part of Front End Development team for Dotcom
+- Local Store Pages
+- Transitioned to work on core platform Dotcom projects (Java/JSP)
+- Got to work on Platform Transformation and helped create PLSDK
+
+
+
+*** PLSDK
+- Started as a "front end build"
+- Our goal was to have a single build that would do Sass files, JavaScript files with "includes"
+- We also wanted to work on Freemarker templates, but do it with dummy data
+- Realized that if we took templates + data, added CSS, and JS, we'd have a static site with examples of what our pages would be like in the live environment.
+- Deploy that to a web server, and we've got a great way to share status with stakeholders, conduct usability testing, etc...
+- Having everything local allowed the team to try out tons of ideas
+- We could simulate AJAX type requests/responses with dummy data
+- Dummy data files became a really valuable reference to integrate with the application developers. Crystal clear contract.
+
+
+** Other companies using similar strategies
+- Bill Scott, Sr. Director UI Engineering at Paypal described a similar process happening at Paypal
+- Mustache.java has a built in tool called Handlebar for viewing templates with dummy data
+
+
+* Make Lean UX
+
+*** Make vs. Buy
+- Think about where technology was when a lot of today's managers were in their formative years
+- Conventional wisdom used to be "always buy" and focus on your core competencies
+- Rules of them that applied to technology management 10-20 years ago don't apply today
+- Think of what JQuery lets you do
+- Think of what RoR lets you do
+- Think of what Twitter Bootstrap lets you do
+
+
+*** UX pain
+- When are the wireframes going to be done? When the emails are done.
+- No such thing as a "final wireframe"
+- Your job is not to make documents. Your job is to lead the team so that the product it makes works with humans.
+
+
+*** UX should be fun
+- Lo-fi is good
+- Sketching is for everybody
+- Everyone can contribute great ideas
+
+
+*** What I think works (to make UX & Design successful)
+- Get your hands on the front end -- HTML, CSS JavaScript
+- Work with the same code for UX activities as what goes on the website
+- Live Style Guide
+- UI Engineers work with and for designers
+- Promote winning design straight to application using dependency management
+
+
+*** What you have to make
+- You have to figure out how to integrate the front end with your technology platform
+- Handing off a mock loses fidelity
+- Start using a templating engine
+- Create a system to develop a prototype, refine it, and then pass it on to your production application (automate)
+
+
