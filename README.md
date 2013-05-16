@@ -5,6 +5,8 @@ Design and UX in enterprise environments can be an exercise in heartache and pai
 
 This talk is about harnessing the "Maker" spirit to enable Lean UX, specifically with front end development. I'll talk about strategies we developed at Best Buy in 2012, approaches other companies are taking, and evolutions of those strategies that I am applying today in the healthcare industry.
 
+You can view this presentation here: http://mitc0185.github.io/make-lean-ux/
+
 ABOUT THE CODE
 --------------
 
